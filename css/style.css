@@ -9,6 +9,8 @@
 body {
     font-family: "Outfit", serif;
     min-height: 100vh;
+    background: black;
+    color: white;
 }
 
 img, picture, svg, video {
@@ -16,6 +18,91 @@ img, picture, svg, video {
 	max-width: 100%;
 }
 
+
+/* =================
+ typografi-navbar
+ =================== */
+
+.navbar__icon {
+    font-weight: 600;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+/*  menu__title only shown in larger screens sizes */
+.navbar__menu__title {
+    display: none;
+    font-size: 2.5rem;
+    
+}
+
+.navbar__logo {
+    width: 150px;
+    align-self: center;
+    cursor: pointer;
+    
+}
+
+/* navbar__links only shown on larger screen sizes */
+.navbar__list {
+    display: none;
+}
+.navbar__link {
+    display: none;
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* =================
+ typografi-Hero
+ =================== */
+
+.hero__content__title {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+
+/* =================
+ Layout NAV-BAR
+ =================== */
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    z-index: 11;
+    background: rgba(0, 0, 255, 0);
+    position: fixed;
+    width: 100%;
+ }
+
+
+ /* =================
+ Layout HERO
+ =================== */
+
+ .hero {
+    
+    min-height: 80vh;
+    background-image: url(/bonzai-assets/assets/photos/02-night.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+    
+ }
+
+
+  /* =================
+ Layout MAIN
+ =================== */
+
+ 
 
 
 
