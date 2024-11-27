@@ -12,31 +12,52 @@
 </head>
 <body>
 
-    <header class="navbar">
+    <div class="wrapper">
 
-        <section class="navbar__menu">
-        <i class="ri-menu-2-line navbar__icon"></i>
-        <p class="navbar__menu__title">Menu</p>
-        </section>
+        <header class="navbar">
 
-        <img class="navbar__logo" src="bonzai-assets/assets/logo/bonz.ai-logo-white-landscape.png" alt="">
+            <section class="navbar__menu">
+            <i class="ri-menu-2-line navbar__icon"></i>
+            <p class="navbar__menu__title">Menu</p>
+            </section>
 
-        <ul class="navbar__list">
-            <a class="navbar__link" href="#">Our Locations</a>
-            <a class="navbar__link" href="#">Book Now</a>
-        </ul>
+            <img class="navbar__logo" src="bonzai-assets/assets/logo/bonz.ai-logo-white-landscape.png" alt="">
 
-    </header>
+            <ul class="navbar__list">
+                <a class="navbar__link" href="#">Our Locations</a>
+                <!-- <a class="navbar__link" href="#">Book Now</a> -->
+            </ul>
 
-    <main>
-        <section class="hero">
-            <aside class="hero__content">
-                <h1 class="hero__content__title">Bonz Green Hotels</h1>
-                
-            </aside>
-        </section>
-    </main>
-    
+        </header>
+
+        <main>
+            <section class="hero">
+                <aside class="hero__content">
+                    <h1 class="hero__content__title">Discover Bonzai Hotels</h1>
+                    <form class="form" action="#">
+                        
+                        <input class="form__content" type="date" id="dates" aria-label="dates for hotelvisit" required >
+                        
+                        <select class="form__content" name="rooms" id="rooms" required aria-label="rooms">
+                            <option value="">Rooms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+
+                        <select class="form__content"  name="company" id="company" required aria-label="company">
+                            <option value="">Adults/children</option>
+                            <option value="2/1">2/1</option>
+                        </select>
+
+                        <button class="form__btn" type="submit">Search</button>
+                    </form>
+                </aside>
+            </section>
+        </main>
+    </div>
     
 </body>
 </html>
