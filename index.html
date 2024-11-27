@@ -29,32 +29,53 @@
             </ul>
 
         </header>
+        
+        <!-- Overlay for the menu, so the menu get displayed in an overlay on top of the regular content -->
+
+        <aside class="overlay">
+            <ul class="overlay__list">
+
+                <li class="overlay__item">
+                    <a class="overlay__item-link" href="#">Home</a>
+                </li>
+                <li class="overlay__item">
+                    <a class="overlay__item-link" href="#">Our Locations</a>
+                </li>
+                <li class="overlay__item">
+                    <a class="overlay__item-link" href="#">Book a room!</a>
+                </li>
+                <li class="overlay__item">
+                    <a class="overlay__item-link" href="#">About Us</a>
+                </li>
+               
+            </ul>
+        </aside>
 
         <main>
-            <section class="hero">
-                <aside class="hero__content">
-                    <h1 class="hero__content__title">Discover Bonzai Hotels</h1>
-                    <form class="form" action="#">
-                        
-                        <input class="form__content" type="date" id="dates" aria-label="dates for hotelvisit" required >
-                        
-                        <select class="form__content" name="rooms" id="rooms" required aria-label="rooms">
-                            <option value="">Rooms</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+                <section class="hero">
+                    <aside class="hero__content">
+                        <h1 class="hero__content__title">Discover Bonzai Hotels</h1>
+                        <form class="form" action="#">
+                            
+                            <input class="form__content" type="date" id="dates" aria-label="dates for hotelvisit" required >
+                            
+                            <select class="form__content" name="rooms" id="rooms" required aria-label="rooms">
+                                <option value="">Rooms</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
 
-                        <select class="form__content"  name="company" id="company" required aria-label="company">
-                            <option value="">Adults/children</option>
-                            <option value="2/1">2/1</option>
-                        </select>
+                            <select class="form__content"  name="company" id="company" required aria-label="company">
+                                <option value="">Adults/children</option>
+                                <option value="2/1">2/1</option>
+                            </select>
 
-                        <button class="form__btn" type="submit">Search</button>
-                    </form>
-                </aside>
+                            <button class="form__btn" type="submit">Search</button>
+                        </form>
+                    </aside>
             </section>
         </main>
     </div>
