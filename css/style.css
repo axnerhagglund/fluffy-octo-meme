@@ -9,7 +9,7 @@
 body {
     font-family: "Outfit", serif;
     min-height: 100vh;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
 }
 
@@ -201,13 +201,13 @@ img, picture, svg, video {
 
  .form__btn {
     padding: 1rem 1.9rem;
-    border: 2px solid white;
+    border: 2px solid #a77a3f;
     border-radius: 5px;
     background: none;
-    color: white;
+    color: #a77a3f;
     font-family: "Outfit", serif;
     font-size: 1.6rem; 
-    
+    font-weight: 600;
     width: 250px;
     cursor: pointer;
     transition: all 250ms;
@@ -242,6 +242,7 @@ img, picture, svg, video {
  }
 
 /* grid cards */
+
 .grid__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -250,7 +251,7 @@ img, picture, svg, video {
 .grid__heading {
     font-weight: 500;
     font-size: 1.9rem;
-    padding-top: 10rem;
+    padding-top: 7rem;
     padding-left: 1rem;
 }
 
@@ -284,7 +285,13 @@ img, picture, svg, video {
     text-transform: uppercase;
     cursor: pointer;
     font-size: 1rem;
+    transition: all 500ms;
 }
+
+.card__btn:hover {
+    transform: scale(1.1)
+}
+
  .card__number-ratings {
     color: rgb(102, 102, 102);
  }
