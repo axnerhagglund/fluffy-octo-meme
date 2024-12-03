@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/javascript.js"></script>
+    <script src="js/javascript.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
             <a href="index.html"><img class="navbar__logo" src="bonzai-assets/assets/logo/bonz.ai-logo-white-landscape.png" alt="bonz.ai logga"></a>
 
             <ul class="navbar__list">
-                <a class="navbar__link" href="bookingpage.html">Book Now</a>
+                <a class="navbar__link" href="reservations.html">Reservations</a>
             </ul>
 
         </header>
@@ -44,7 +44,7 @@
                     <a class="overlay__item-link" href="bookingpage.html">Book a room!</a>
                 </li>
                 <li class="overlay__item">
-                    <a class="overlay__item-link" href="#">Our Locations</a>
+                    <a class="overlay__item-link" href="reservations.html">Reservations</a>
                 </li>
                 <li class="overlay__item">
                     <a class="overlay__item-link" href="#">About Us</a>
@@ -58,15 +58,16 @@
         <main class="grid__cards">
             <section class="card">
                 <img class="card__image" src="bonzai-assets/assets/photos/06-night.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title">Golden Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
-                <button class="card__btn">book now!</button>
+                <button id="card_btn" class="card__btn" onclick="bookedBtn()">book now!</button>
+                <a href="reservations.html" id="card__confirmation__message"></a>
             </section>
 
             <section class="card">
                 <img class="card__image" src="bonzai-assets/assets/photos/01-day.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title">Sapphire Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
                 <button class="card__btn">book now!</button>
@@ -75,7 +76,7 @@
 
             <section class="card">
                 <img class="card__image" src="bonzai-assets/assets/photos/04-night.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title">The Serene Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
                 <button class="card__btn">book now!</button>
@@ -86,7 +87,7 @@
         <main class="grid__cards">
             <section class="card">
                 <img class="card__image" src="bonzai-assets/assets/photos/09-night.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title">Sky Cabin</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
                 <button class="card__btn">book now!</button>
@@ -94,7 +95,7 @@
 
             <section class="card">
                 <img class="card__image" src="bonzai-assets/assets/photos/08-day.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title"> The Alpine Retreat</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
                 <button class="card__btn">book now!</button>
@@ -103,7 +104,7 @@
 
             <section class="card lastcard">
                 <img class="card__image" src="bonzai-assets/assets/photos/03-day.jpg" alt="image of a room">
-                <h2 class="card__title">Austin texas</h2>
+                <h2 class="card__title">Lake Chalet</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
                 <button class="card__btn">book now!</button>

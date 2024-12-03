@@ -151,7 +151,6 @@ img, picture, svg, video {
     display: flex;
     align-items: center;
     gap: .5rem;
-
  }
 
  .navbar {
@@ -163,6 +162,7 @@ img, picture, svg, video {
     background: rgba(0, 0, 255, 0);
     position: fixed;
     width: 100%;
+    border-bottom: 1px solid white;
  }
 
 
@@ -258,6 +258,7 @@ img, picture, svg, video {
 .grid__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 
     
 }
@@ -361,5 +362,8 @@ img, picture, svg, video {
 
 
 
+/* javascript stylethings */
 
-
+ #card__confirmation__message {
+    display: inline-block;
+}
