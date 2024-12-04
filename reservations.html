@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/javascript.js"></script>
+    <script src="js/javascript.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -52,3 +52,35 @@
                
             </ul>
         </aside>
+
+
+        
+            <h1 class="reservations__title">Your reserved cabins</h1>
+            <main class="grid__cards">
+                <section class="card" id="cabin1">
+                    <img class="card__image" src="bonzai-assets/assets/photos/06-night.jpg" alt="image of a room">
+                    <h2 class="card__title">Golden Lodge</h2>
+                    <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
+                    <p class="card__undertext">Aircondition, Jacuzzi and more</p>
+                    <button class="card__btn reservation__btn" onclick="bookedBtn('cabin1')">book now!</button> <br>
+                    <a href="reservations.html" class="card__confirmation__message"></a>
+                </section>
+    
+                <section class="card" id="cabin2">
+                    <img class="card__image" src="bonzai-assets/assets/photos/01-day.jpg" alt="image of a room">
+                    <h2 class="card__title">Sapphire Lodge</h2>
+                    <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
+                    <p class="card__undertext">Aircondition, Jacuzzi and more</p>
+                    <button class="card__btn reservation__btn" onclick="bookedBtn('cabin2')">book now!</button>
+                    <a href="reservations.html" class="card__confirmation__message"></a>
+                </section>
+    
+                <section class="card" id="cabin3">
+                    <img class="card__image" src="bonzai-assets/assets/photos/04-night.jpg" alt="image of a room">
+                    <h2 class="card__title">The Serene Lodge</h2>
+                    <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
+                    <p class="card__undertext">Aircondition, Jacuzzi and more</p>
+                    <button class="card__btn reservation__btn" onclick="bookedBtn('cabin3')">book now!</button>
+                    <a href="reservations.html" class="card__confirmation__message"></a>
+                </section>  
+            </main>

@@ -56,30 +56,31 @@
         
         <h1 class="grid__heading">Recomended</h1>
         <main class="grid__cards">
-            <section class="card">
+            <section class="card" id="cabin1">
                 <img class="card__image" src="bonzai-assets/assets/photos/06-night.jpg" alt="image of a room">
                 <h2 class="card__title">Golden Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
-                <button id="card_btn" class="card__btn" onclick="bookedBtn()">book now!</button>
-                <a href="reservations.html" id="card__confirmation__message"></a>
+                <button class="card__btn" onclick="bookedBtn('cabin1')">book now!</button> <br>
+                <a href="reservations.html" class="card__confirmation__message"></a>
             </section>
 
-            <section class="card">
+            <section class="card" id="cabin2">
                 <img class="card__image" src="bonzai-assets/assets/photos/01-day.jpg" alt="image of a room">
                 <h2 class="card__title">Sapphire Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
-                <button class="card__btn">book now!</button>
+                <button class="card__btn" onclick="bookedBtn('cabin2')">book now!</button>
+                <a href="reservations.html" class="card__confirmation__message"></a>
             </section>
 
-
-            <section class="card">
+            <section class="card" id="cabin3">
                 <img class="card__image" src="bonzai-assets/assets/photos/04-night.jpg" alt="image of a room">
                 <h2 class="card__title">The Serene Lodge</h2>
                 <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                 <p class="card__undertext">Aircondition, Jacuzzi and more</p>
-                <button class="card__btn">book now!</button>
+                <button class="card__btn" onclick="bookedBtn('cabin3')">book now!</button>
+                <a href="reservations.html" class="card__confirmation__message"></a>
             </section>  
         </main>
 
@@ -110,5 +111,6 @@
                 <button class="card__btn">book now!</button>
             </section>  
         </main>
+            
 
     </div>

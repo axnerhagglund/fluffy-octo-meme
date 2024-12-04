@@ -359,11 +359,21 @@ img, picture, svg, video {
   }
 
 
-
-
-
 /* javascript stylethings */
 
- #card__confirmation__message {
+ .card__confirmation__message {
+    display: inline-block;
+}
+
+.reservation__btn {
+    display: none;
+}
+
+.reservations__title {
+    font-weight: 500;
+    font-size: 1.9rem;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    border-bottom: 1px solid #fff;
     display: inline-block;
 }
