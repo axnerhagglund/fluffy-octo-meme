@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="js/javascript.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.gstatic.com/s/outfit/v12/6xKhdSpJJ92I9LAc3HwXPQ.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" integrity="sha512-6p+GTq7fjTHD/sdFPWHaFoALKeWOU9f9MPBoPnvJEWBkGS4PKVVbCpMps6IXnTiXghFbxlgDE8QRHc3MU91lJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <noscript>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css"/>
+
+<   </noscript>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi and welcome to Bonz.ai eco driven hotel, a modern ai-driven destination for travelers. Here you will experience luxury and first hand service in our modern cabins by the lake - featuring renewable energy, organic dining, and stunning natural surroundings.">
+    <meta name="keywords" content="eco hotel, sustainable travel, eco-friendly accommodations, modern cabins, renewable energy hotels, organic dining">
+    <meta name="author" content="Axner Hägglund">
+    <script src="js/javascript.js" defer ></script>
     <title>bonz.ai</title>
 </head>
 <body>
@@ -22,7 +30,7 @@
             <p class="navbar__menu__title" onclick="openOverlay()">Menu</p>
             </section>
 
-            <a href="index.html"><img class="navbar__logo" src="bonzai-assets/assets/logo/bonz.ai-logo-white-landscape.png" alt="bonz.ai logga"></a>
+            <a href="index.html"><img class="navbar__logo" src="bonzai-assets/assets/logo/bonz.ai-logo-white-landscape.png" alt="bonz.ai logga" loading="lazy"></a>
 
             <ul class="navbar__list">
                 <a class="navbar__link" href="bookingpage.html">Book Now</a>
@@ -58,7 +66,7 @@
             <h1 class="reservations__title">Your reserved cabins</h1>
             <main class="grid__cards">
                 <section class="card" id="cabin1">
-                    <img class="card__image" src="bonzai-assets/assets/photos/06-night.jpg" alt="image of a room">
+                    <img class="card__image" src="bonzai-assets/assets/photos/06-night.jpg" alt="image of a room" loading="lazy">
                     <h2 class="card__title">Golden Lodge</h2>
                     <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                     <p class="card__undertext">Aircondition, Jacuzzi and more</p>
@@ -67,7 +75,7 @@
                 </section>
     
                 <section class="card" id="cabin2">
-                    <img class="card__image" src="bonzai-assets/assets/photos/01-day.jpg" alt="image of a room">
+                    <img class="card__image" src="bonzai-assets/assets/photos/01-day.jpg" alt="image of a room" loading="lazy">
                     <h2 class="card__title">Sapphire Lodge</h2>
                     <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                     <p class="card__undertext">Aircondition, Jacuzzi and more</p>
@@ -75,8 +83,8 @@
                     <a href="reservations.html" class="card__confirmation__message"></a>
                 </section>
     
-                <section class="card" id="cabin3">
-                    <img class="card__image" src="bonzai-assets/assets/photos/04-night.jpg" alt="image of a room">
+                <section class="card lastcard" id="cabin3">
+                    <img class="card__image" src="bonzai-assets/assets/photos/04-night.jpg" alt="image of a room" loading="lazy">
                     <h2 class="card__title">The Serene Lodge</h2>
                     <p class="card__number">4.3 <i class="ri-star-fill"></i> <span class="card__number-ratings">(201)</span></p>
                     <p class="card__undertext">Aircondition, Jacuzzi and more</p>
@@ -84,3 +92,28 @@
                     <a href="reservations.html" class="card__confirmation__message"></a>
                 </section>  
             </main>
+            <footer class="footer">
+                <section class="footer__social">
+                  <h2 class="footer__title">Follow Us on Social Media</h2>
+                  <ul class="footer__social-icons">
+                    <li><a href="#" class="footer__social-icon"><i class="ri-twitter-x-fill"></i></a></li>
+                    <li><a href="#" class="footer__social-icon"><i class="ri-instagram-line"></i></a></li>
+                    <li><a href="#" class="footer__social-icon"><i class="ri-facebook-line"></i></a></li>
+                  </ul>
+                </section>
+                
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__list-link">About Us</a></li>
+                    <li><a href="bookingpage.html" class="footer__list-link">Book A Cabin</a></li>
+                    <li><a href="reservations.html" class="footer__list-link">Reservations</a></li>
+                </ul>
+                
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__list-link">Terms & Conditions</a></li>
+                    <li><a href="#" class="footer__list-link">Insporations</a></li>
+                    <li><a href="#" class="footer__list-link">Our Locations</a></li>
+                </ul>
+    
+              </footer>
+</body>
+</html>
