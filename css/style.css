@@ -110,7 +110,7 @@ img, picture, svg, video {
 /* ================= typografi-Hero =================== */
 .hero__content__title {
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
     max-width: 500px;
 }
@@ -128,7 +128,7 @@ img, picture, svg, video {
     padding: 1em;
     align-items: center;
     z-index: 11;
-    background: rgba(31, 29, 29, 0.4);
+    background: rgba(5, 5, 5, 0.4);
     width: 100%;
     position: fixed;
     border-bottom: 1px solid white;
@@ -203,6 +203,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-top: 7rem;
     padding-left: 1rem;
 }
+
+.border-lastsection {
+    border-bottom: 1px solid #cecbcb;
+}
 /* card inside the booking page */
 .card {
     display: inline-block;
@@ -242,8 +246,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .lastcard {
     margin-bottom: 7rem;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 4rem;
+    
 }
 
 /* ================= fOOTER  =================== */
